@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <img src="img/rosto100.jpg" alt="Foto de Anderson">
+        <img src="img/rosto100.jpg" alt="Foto de Anderson" class="photo">
         <h1 id="title" >Anderson</h1>
     </header>
     <section>
@@ -21,16 +21,18 @@
     <article class="post">
         <header>
             <h3 class="post_title">Post #1</h3>
-            <picture>
-                <source media="(max-width: 700px)" srcset="img/html-p.jpg" type="image/jpg">
-                <source media="(max-width: 1050px)" srcset="img/html-m.jpg" type="image/jpg">
-                <img src="img/html-G.jpg" alt="Imagem flexível">
-            </picture>
+                <picture>
+                    <source media="(max-width: 400px)" srcset="img/html-p2.jpg" type="image/jpg"> 
+                    <source media="(max-width: 700px)" srcset="img/html-p3.jpg" type="image/jpg">
+                    <source media="(max-width: 1050px)" srcset="img/html-m.jpg" type="image/jpg">
+                    <img src="img/html-G.jpg" alt="Imagem flexível" class="post_img">
+                </picture>
+
         </header>
-        <p>Lorem ipsum dolor sit amet,<a href="https://www.linkedin.com/in/anderson-silva-vieira-tandy/" target="_blank">consectetur adipisicing</a>  elit. Placeat dolorum <a href="mailto:andersonsilvaufvjm@gmail.com">animi magnam</a> vel suscipit rerum labore, eligendi harum quasi cupiditate optio obcaecati eaque? Exercitationem molestias laboriosam pariatur ut, minima tenetur!</p>
+        <p class="post_content">Lorem ipsum dolor sit amet,<a href="https://www.linkedin.com/in/anderson-silva-vieira-tandy/" target="_blank">consectetur adipisicing</a>  elit. Placeat dolorum <a href="mailto:andersonsilvaufvjm@gmail.com">animi magnam</a> vel suscipit rerum labore, eligendi harum quasi cupiditate optio obcaecati eaque? Exercitationem molestias laboriosam pariatur ut, minima tenetur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et blanditiis voluptatibus illo recusandae? Architecto laborum velit qui quis. Facere quo velit nobis in? Maxime nobis necessitatibus ullam quia est commodi?</p>
     </article>
     <footer>
-        <ul>
+        <ul class="contacts">
             <li><img src="icones/icone-mail.png" alt="Ícone e-mail"><a href="mailto:andersonsilvaufvjm@gmail.com">andersonsilvaufvjm@gmail.com</a></li>
             <li><img src="icones/icone-github.png" alt="Ícone github"><a href="https://github.com/andersonsilva7" target="_blank" rel="external">/andersonsilva7</a> Acesse o meu repositório público no GitHub</li>
             <li><img src="icones/icone-instagram.png" alt="Ícone Instagram"><a href="https://www.instagram.com/tandy.anderson/" target="_blank" rel="external">/tandy.anderson</a> - Me segue lá no Instagram</li>
