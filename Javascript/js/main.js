@@ -32,8 +32,10 @@ function funcaoChange(elemento){ //faz o alert avisar que o valor foi trocado, m
 
 /*
 function soma(n1, n2){
-	return n1 + n2
+	return n1 + n2;
 }
+alert(soma(5,10));
+
 */
 
 /*
